@@ -21,7 +21,7 @@ Pieces for Developers is a code snippet management tool powered by AI.
 
 - Click the Pieces Save button within any code block.
 
-![Save to Pieces via Button](https://storage.googleapis.com/pieces_multimedia/PROMOTIONAL/PIECES_FOR_DEVELOPERS/JUPYTER/MACOS/EMBEDDED_BUTTON_SAVE_ACTIVE_CELL/16X9/PIECES_FOR_DEVELOPERS-JUPYTER-EMBEDDED_BUTTON_SAVE_ACTIVE_CELL-16X9-MACOS-6_22_2023.gif)
+![Save to Pieces via Button](https://storage.googleapis.com/pieces_multimedia/PROMOTIONAL/PIECES_FOR_DEVELOPERS/JUPYTER/MACOS/SAVE_TO_PIECES/16X9/PIECES_FOR_DEVELOPERS-JUPYTER-SAVE_TO_PIECES-MACOS-16X9-9_21_2023.GIF)
 
 #### 2. Find & use your snippets
 
