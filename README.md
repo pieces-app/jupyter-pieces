@@ -1,144 +1,145 @@
-# jupyter-pieces
+# [Pieces for Developers](https://pieces.app) | JupyterLab Extension
 
-[![Github Actions Status](/workflows/Build/badge.svg)](/actions/workflows/build.yml)
-Pieces for Developers is a code snippet management tool powered by AI.
+In 2022, our team embarked on a mission to transform the way you code with your personal micro-repo.
 
-# Elevate Your Jupyter Experience with Pieces
+With the debut release of our Flagship Desktop App, we laid the foundation, and now our JupyterLab extension is here to revolutionize your coding workflow further by incorporating key capabilities and our users' favorite features directly into their JupyterLab environment.
 
-<div class="nav">
-    <a href="https://docs.pieces.app/extensions-plugins/jupyterlab" style="display: inline-block; text-decoration: none; border-radius: 4px;">Docs</a>		<a href="https://pieces.app" style="display: inline-block; text-decoration: none; border-radius: 4px;">Learn More</a>
-</div>
+![Pieces For Developers Banner](https://storage.googleapis.com/pieces_multimedia/PROMOTIONAL/PIECES_FOR_DEVELOPERS/JUPYTER/MACOS/ANY_FEATURE/16X9/PIECES_FOR_DEVELOPERS-JUPYTER-ANY_FEATURE-MACOS-16X9-10_16_2023.png)
 
-## Your Guide to Getting Started with Pieces for Developers Jupyter Extension
+Elevate your coding & problem-solving in JupyterLab with the Pieces Copilot. Interact with the Copilot from any code workspace right within your JupyterLab interface. Ask questions about code or content within a file, gain insight on keywords or patterns within code snippets, ask the Copilot to generate a sample using an SDK you’re researching, and even use it to help you understand PRs.
 
-#### 1. Save your first snippet
+As you move through your workflow, our JupyterLab extension enables you to effortlessly capture, manage, share, and discover code snippets & other developer materials, such as code screenshots, with a simple click.
 
-- To save a snippet, highlight the text, right-click, and select "Save to Pieces."
+The Pieces for Developers JupyterLab extension is designed to become your go-to development partner, transforming your workflow with efficiency and organization.
 
-![Save to Pieces via Menu](https://storage.googleapis.com/pieces_multimedia/PROMOTIONAL/PIECES_FOR_DEVELOPERS/JUPYTER/MACOS/RIGHT-CLICK_SAVE/16X9/PIECES_FOR_DEVELOPERS-JUPYTER-RIGHT-CLICK_SAVE-MACOS-16X9-9_22_2023.GIF)
+## Table of Contents
 
-**Additional ways to save**
+- [Recent Updates](#recent-updates)
+- [Getting Started](#getting-started)
+  - [Requirements](#requirements)
+  - [Install Instructions](#install-instructions)
+- [Features](#features)
+  - [Meet Your New Copilot](#meet-your-new-copilot)
+  - [Save Valuable Code](#save-valuable-code)
+  - [Find and Reuse Code Snippets](#find-and-reuse-code-snippets)
+  - [Share Code from JupyterLab](#share-code-from-jupyterlab)
+  - [Keyboard Shortcuts](#keyboard-shortcuts)
+- [Explore the Pieces Ecosystem](#explore-the-pieces-ecosystem)
+- [Need Help?](#need-help)
+- [Stay Connected](#stay-connected)
 
-- Click the Pieces Save button within any code block.
+## Recent Updates
 
-![Save to Pieces via Button](https://storage.googleapis.com/pieces_multimedia/PROMOTIONAL/PIECES_FOR_DEVELOPERS/JUPYTER/MACOS/SAVE_TO_PIECES/16X9/PIECES_FOR_DEVELOPERS-JUPYTER-SAVE_TO_PIECES-MACOS-16X9-9_21_2023.GIF)
+### [v1.6.1 - Improved Pieces Copilot Experience](https://code.pieces.app/updates/improved-pieces-copilot-experiences)
+_Oct. 3, 2023_
 
-#### 2. Find & use your snippets
+- Introduction of Quick Actions for easy selection of LLM runtime and file context in Copilot conversations.
+- Theme Matching feature to align Copilot's appearance with the environment's theme.
+- Styling updates including new icons for an enhanced user experience.
 
-- To access your saved snippets, click on the Pieces icon in your left sidebar.
+### [v1.4.0 - Filter your Snippet List](https://code.pieces.app/updates/filter-snippet-list-obsidian-jupyterlab)
+_Sept. 8, 2023_
 
-  ![Search Your Pieces](https://storage.googleapis.com/pieces_multimedia/PROMOTIONAL/PIECES_FOR_DEVELOPERS/JUPYTER/MACOS/SEARCH_AND_INSERT/16X9/PIECES_FOR_DEVELOPERS-JUPYTER-SEARCH_AND_INSERT-16X9-MACOS-6_22_2023.gif)
+- Ability to filter snippet lists based on tags, titles, language, and more.
+- Access to filtering options via a filter button and a user-friendly interface for setting up filters.
+- Improved search functionality with the search bar now properly accepting user input.
 
-#### 3. Share your Snippets
+### [v1.1.1 - Introducing Pieces Copilot](https://code.pieces.app/updates/pieces-qgpt-rag-copilot-live-data-synchronization-and-more-pieces-for-developers-jupyterlab-plugin-111)
+_Jul. 21, 2023_
 
-- Collaborate with others with ease using shareable links for your snippets
+- Launch of qGPT RAG Copilot, a chatbot contextualized by the code within a user's notebook(s), facilitating plain text queries.
+- Incorporation of live data synchronization to ensure real-time update of modifications made in your Pieces repository via other integrations.
+- New Context Menu Enrich Button to allow automatic generation of comments explaining the selected code, aimed at enhancing JupyterLab workflow.
 
-![Share you Snippets](https://storage.googleapis.com/pieces_multimedia/PROMOTIONAL/PIECES_FOR_DEVELOPERS/JUPYTER/MACOS/SNIPPET_BUTTON_SHARE/16X9/PIECES_FOR_DEVELOPERS-JUPYTER-SNIPPET_BUTTON_SHARE-16X9-MACOS-6_22_2023.gif)
+[View all updates](https://code.pieces.app/updates)
 
-#### 4. Copilot
+## Getting Started
 
-- Ask questions about your notebook, generate code relevant to what you are working on, and more with the Pieces Copilot
-- Suggested queries are automatically generated for your ease of use
-- Choose between Local and Cloud LLM runtimes (i.e Llama2, GPT)
-- Quickly link to relevant notebooks
-  ![Pieces Copilot](https://storage.googleapis.com/pieces_multimedia/PROMOTIONAL/PIECES_FOR_DEVELOPERS/JUPYTER/MACOS/GLOBAL_COPILOT/16X9/PIECES_FOR_DEVELOPERS-JUPYTER-GLOBAL_COPILOT-MACOS-16X9-9_26_2023.GIF)
-
-### Maximize productivity with our Flagship Desktop App
-
-Utilize the Pieces [Flagship Desktop App](https://pieces.app) in combination with our Jupyter Plugin to streamline your workflow and enhance your development productivity.
-
-- Get back in flow with our Workflow Activity View
-- Save time with In-Project Snippet Discovery
-- Enjoy real-time and scope-relevant suggestions
-- Extract and use code and text from screenshots
-
-![Save to Pieces via Button](https://storage.googleapis.com/pieces_multimedia/PROMOTIONAL/PIECES_FOR_DEVELOPERS/JUPYTER/MACOS/WITH_DESKTOP_APP/16X9/PIECES_FOR_DEVELOPERS-JUPYTER-WITH_DESKTOP_APP-MACOS-6_22_2023.png)
-
-<div class="nav">
-    <h3>Socials</h3>
-</div>
-<div class="nav">
-    <a href="https://discord.gg/5AN7rVXEES" style="display: inline-block; text-decoration: none; border-radius: 4px;">Discord</a>		<a href="https://www.youtube.com/@getpieces" style="display: inline-block; text-decoration: none; border-radius: 4px;">YouTube</a>		<a href="https://twitter.com/@getpieces" style="display: inline-block; text-decoration: none; border-radius: 4px;">Twitter</a>		<a href="https://www.linkedin.com/company/getpieces" style="display: inline-block; text-decoration: none; border-radius: 4px;">LinkedIn</a>		<a href="https://www.facebook.com/getpieces" style="display: inline-block; text-decoration: none; border-radius: 4px;">Facebook</a>
-</div>
-
-## Requirements
+### Requirements
 
 - JupyterLab >= 4.0.0
+- **You must have [Pieces OS](https://docs.pieces.app/installation-getting-started/what-am-i-installing) installed**.
 
-## Install
+Pieces OS facilitates the local operation of Pieces products on your machine and coordinates connections to Pieces extensions. **The extension will not function as intended without Pieces OS active on your machine.**
 
-To install the extension, execute:
+*_Pieces OS installation comes with the Pieces for Developers Desktop App where your snippets can also be viewed and managed._
 
-```bash
-pip install jupyter-pieces
-```
+### Install Instructions
 
-## Uninstall
+Execute `pip install jupyter-pieces` in your terminal.
 
-To remove the extension, execute:
+or
 
-```bash
-pip uninstall jupyter-pieces
-```
+Search for `jupyter-pieces` within the JupyterLab Extensions Manager and install.
 
-## Contributing
+## Features
 
-### Development install
+### [Meet Your New Copilot](https://docs.pieces.app/features/pieces-copilot)
+Your personal copilot, powered by local or cloud-based LLMs (i.e. Llama 2, GPT-3.5, GPT-4, and PaLM 2) for maximum security and privacy, that’s contextualized by your workflow to help solve coding problems, onboard into new projects faster, and connect you with the right people.
 
-Note: You will need NodeJS to build the extension package.
+![Meet Your New Copilot](https://storage.googleapis.com/pieces_multimedia/PROMOTIONAL/PIECES_FOR_DEVELOPERS/JUPYTER/MACOS/GLOBAL_COPILOT/16X9/PIECES_FOR_DEVELOPERS-JUPYTER-GLOBAL_COPILOT-MACOS-16X9-9_26_2023.GIF)
 
-The `jlpm` command is JupyterLab's pinned version of
-[yarn](https://yarnpkg.com/) that is installed with JupyterLab. You may use
-`yarn` or `npm` in lieu of `jlpm` below.
+### [Save Valuable Code](https://docs.pieces.app/product-highlights-and-benefits/saving-useful-developer-materials)
 
-Create and activate your conda environment:
+Templates, commands, useful snippets, notes... quickly save aspects of your code for future reference or reuse.
 
-```bash
-conda create -n jupyterlab-ext --override-channels --strict-channel-priority -c conda-forge -c nodefaults jupyterlab=4 nodejs=18 git copier=8 jinja2-time
+#### How to save
 
-conda activate jupyterlab-ext
-```
+* Highlight code, right-click, and select "Save to Pieces."
 
-Then:
+![Save with Right Click](https://storage.googleapis.com/pieces_multimedia/PROMOTIONAL/PIECES_FOR_DEVELOPERS/JUPYTER/MACOS/RIGHT-CLICK_SAVE/16X9/PIECES_FOR_DEVELOPERS-JUPYTER-RIGHT-CLICK_SAVE-MACOS-16X9-9_22_2023.GIF)
 
-```bash
-# Clone the repo to your local environment
-# Change directory to the jupyter-pieces directory
-# Install package in development mode
-pip install -e "."
-# Link your development version of the extension with JupyterLab
-jupyter labextension develop . --overwrite
-# Rebuild extension Typescript source after making changes
-jlpm build
-```
+* Click the Pieces Save button within any code block.
 
-You can watch the source directory and run JupyterLab at the same time in different terminals to watch for changes in the extension's source and automatically rebuild the extension.
+![Save with Pieces Button](https://storage.googleapis.com/pieces_multimedia/PROMOTIONAL/PIECES_FOR_DEVELOPERS/JUPYTER/MACOS/SAVE_TO_PIECES/16X9/PIECES_FOR_DEVELOPERS-JUPYTER-SAVE_TO_PIECES-MACOS-16X9-9_21_2023.GIF)
 
-```bash
-# Watch the source directory in one terminal, automatically rebuilding when needed
-jlpm watch
-# Run JupyterLab in another terminal
-jupyter lab
-```
+### [Find and Reuse Code Snippets](https://docs.pieces.app/features/search-modes)
 
-With the watch command running, every saved change will immediately be built locally and available in your running JupyterLab. Refresh JupyterLab to load the change in your browser (you may need to wait several seconds for the extension to be rebuilt).
+Fast, robust search of your code snippets right within JupyterLab.
 
-By default, the `jlpm build` command generates the source maps for this extension to make it easier to debug using the browser dev tools. To also generate source maps for the JupyterLab core extensions, you can run the following command:
+![Manage your Snippets](https://storage.googleapis.com/pieces_multimedia/PROMOTIONAL/PIECES_FOR_DEVELOPERS/JUPYTER/MACOS/SEARCH_AND_INSERT/16X9/PIECES_FOR_DEVELOPERS-JUPYTER-SEARCH_AND_INSERT-16X9-MACOS-6_22_2023.gif)
 
-```bash
-jupyter lab build --minimize=False
-```
+### [Share Code from JupyterLab](https://docs.pieces.app/features/one-click-snippet-sharing)
 
-### Development uninstall
+Share snippets with a simple right-click, complete with relevant context - tags, descriptions, origin, and more!
 
-```bash
-pip uninstall jupyter-pieces
-```
+![Share your Snippets](https://storage.googleapis.com/pieces_multimedia/PROMOTIONAL/PIECES_FOR_DEVELOPERS/JUPYTER/MACOS/SNIPPET_BUTTON_SHARE/16X9/PIECES_FOR_DEVELOPERS-JUPYTER-SNIPPET_BUTTON_SHARE-16X9-MACOS-6_22_2023.gif)
 
-In development mode, you will also need to remove the symlink created by `jupyter labextension develop`
-command. To find its location, you can run `jupyter labextension list` to figure out where the `labextensions`
-folder is located. Then you can remove the symlink named `jupyter-pieces` within that folder.
+### [Keyboard Shortcuts](https://docs.pieces.app/features/keyboard-shortcuts)
 
-### Packaging the extension
+To use a Pieces command, simply highlight code in your editor or hover a snippet in your Pieces List.
 
-See [RELEASE](RELEASE.md)
+| Command                              | macOS            | Windows          |
+|--------------------------------------|------------------|------------------|
+| Save Selection to Pieces             | Cmd+Shift+S      | Ctrl+Shift+S     |
+| Share Selection via Pieces           | Cmd+Shift+K      | Ctrl+Shift+K     |
+| Save Cell to Pieces                  | Cmd+Shift+Enter  | Ctrl+Shift+Enter |
+| Share Cell via Pieces                | Cmd+Shift+X      | Ctrl+Shift+X     |
+| Discover Snippets                    | Cmd+Shift+A      | Ctrl+Shift+A     |
+| Refresh Snippets                     | Cmd+Shift+E      | Ctrl+Shift+E     |
+| Quick Search                         | Cmd+Shift+M      | Ctrl+Shift+M     |
+| Toggle View                          | Cmd+Shift+Y      | Ctrl+Shift+Y     |
+
+## Explore the Pieces Ecosystem
+
+Maximize productivity with our Flagship Desktop App and other products designed to streamline your coding workflow across different platforms.
+
+![Pieces Product Suite](https://storage.googleapis.com/pieces_multimedia/ILLUSTRATIONS/PIECES_FOR_DEVELOPERS/ANY_INTEGRATION/ANY_THEME/PLUGINS/1X1/PIECES_FOR_DEVELOPERS-ANY_INTEGRATION-PLUGINS-ANY_THEME-1X1-10_16_2023.PNG)
+
+For detailed descriptions and features of each product, visit our [docs for JupyterLab](https://docs.pieces.app/extensions-plugins/jupyterlab).
+
+## Need Help?
+
+Encountered a hurdle? We've got you covered. Reach out for support:
+
+- **[Support Form](https://getpieces.typeform.com/to/mCjBSIjF)**
+- **[Join our Discord Community](https://discord.gg/getpieces)**
+
+## Stay Connected
+
+Stay in the loop! Follow us for the latest updates, tips, and insights:
+
+- **[Twitter](https://twitter.com/getpieces)**
+- **[YouTube](https://youtube.com/@getpieces)**
+- **[Facebook](https://facebook.com/getpieces)**
+- **[LinkedIn](https://linkedin.com/company/getpieces)**
