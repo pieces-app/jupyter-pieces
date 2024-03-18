@@ -1,5 +1,5 @@
 blank_issues_enabled: false
 contact_links:
-  - name: Feature or Enhancement Request
+  - name: Request a Feature
     url: https://github.com/pieces-app/support/discussions
-    about: Post your idea for our Jupyter extension in discussions for the Pieces team and community to discuss!
+    about: Post your idea for the Pieces JupyterLab extension in discussions for the Pieces team and community to discuss!
